@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zz_background01"
+    android:orientation="vertical"
+    android:paddingBottom="24dp"
+    android:paddingEnd="24dp"
+    android:paddingStart="24dp"
+    android:paddingTop="10dp"
+    tools:context=".LuncherActivity">
+
+    <Button
+        android:id="@+id/home0"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/zz_word"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent"
+        ads:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/dates"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/background1"
+            android:text="مباريات اليوم"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/rounds"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/background1"
+            android:text="جولات الدوري"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/teams"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="18dp"
+            android:background="@drawable/background1"
+            android:text="مباريات الفرق"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/background1"
+            android:text="جدول الدوري"
+            android:textSize="24sp"
+
+
+            />
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView1"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        ads:layout_constraintBottom_toBottomOf="parent"
+        ads:layout_constraintEnd_toEndOf="parent"
+        ads:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

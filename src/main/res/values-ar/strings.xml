@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الدوري المصري</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8413338064677888/1067485928</string>
+    <string name="banner_ad_app_id" >ca-app-pub-8413338064677888~8283114042</string>
+    !------------------------------------spinner Arrays----------------------------------!
+    <string-array name="rounds">
+        <item>اختر الجولة</item>
+        <item>الجولة الاولي</item>
+        <item>الجولة الثانية</item>
+        <item>الجولة الثالثة</item>
+        <item>الجولة الرابعة</item>
+        <item>الجولة الخامسة</item>
+        <item>الجولة السادسة</item>
+        <item>الجولة السابعة</item>
+        <item>الجولة الثامنة</item>
+        <item>الجولة التاسعة</item>
+        <item>الجولة العاشرة</item>
+        <item>الجولة الحادية عشر</item>
+        <item>الجولة الثانية عشر</item>
+        <item>الجولة الثالثة عشر</item>
+        <item>الجولة الرابعة عشر</item>
+        <item>الجولة الخامسة عشر</item>
+        <item>الجولة السادسة عشر</item>
+        <item>الجولة السابعة عشر</item>
+    </string-array>
+    <string-array name="teams">
+        <item>اختر النادي</item>
+        <item>الاهلي</item>
+        <item>الزمالك</item>
+        <item>الاسماعيلي</item>
+        <item>بتروجيت</item>
+        <item>الاتحاد</item>
+        <item> مصر للمقاصة</item>
+        <item> النجوم</item>
+        <item>انبي</item>
+        <item> طلائع الجيش</item>
+        <item>سموحه</item>
+        <item> المقاولون العرب</item>
+        <item>بيراميدز</item>
+        <item>المصري</item>
+        <item>الداخلية</item>
+        <item> وادي دجلة</item>
+        <item>الجونة</item>
+        <item> الانتاج الحربي</item>
+        <item> حرس الحدود</item>
+    </string-array>
+    <string-array name="Score">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="status">
+        <item>لم تبدأ بعد</item>
+        <item>الان</item>
+        <item>انتهت</item>
+    </string-array>
+
+    <string-array name="Date">
+        <item>31/7/2018 </item>
+        <item>1/8/2018  </item>
+        <item>2/8/2018  </item>
+        <item>3/8/2018  </item>
+        <item>4/8/2018  </item>
+        <item>6/8/2018  </item>
+        <item>7/8/2018  </item>
+        <item>8/8/2018  </item>
+        <item>10/8/2018 </item>
+        <item>14/8/2018 </item>
+        <item>15/8/2018 </item>
+        <item>16/8/2018 </item>
+        <item>21/8/2018 </item>
+        <item>24/8/2018 </item>
+        <item>25/8/2018 </item>
+        <item>26/8/2018 </item>
+        <item>27/8/2018 </item>
+        <item>31/8/2018 </item>
+        <item>1/9/2018  </item>
+        <item>2/9/2018  </item>
+        <item>11/9/2018 </item>
+        <item>12/9/2018 </item>
+        <item>13/9/2018 </item>
+        <item>17/9/2018 </item>
+        <item>18/9/2018 </item>
+        <item>19/9/2018 </item>
+        <item>21/9/2018 </item>
+        <item>22/9/2018 </item>
+        <item>23/9/2018 </item>
+        <item>28/9/2018 </item>
+        <item>30/9/2018 </item>
+        <item>1/10/2018 </item>
+        <item>2/10/2018 </item>
+        <item>3/10/2018 </item>
+        <item>5/10/2018 </item>
+        <item>6/10/2018 </item>
+        <item>7/10/2018 </item>
+        <item>18/10/2018</item>
+        <item>19/10/2018</item>
+        <item>20/10/2018</item>
+        <item>1/11/2018 </item>
+        <item>2/11/2018 </item>
+        <item>3/11/2018 </item>
+        <item>5/11/2018 </item>
+        <item>6/11/2018 </item>
+        <item>7/11/2018 </item>
+        <item>8/11/2018 </item>
+        <item>10/11/2018</item>
+        <item>11/11/2018</item>
+        <item>12/11/2018</item>
+        <item>20/11/2018</item>
+        <item>21/11/2018</item>
+        <item>22/11/2018</item>
+        <item>24/11/2018</item>
+        <item>25/11/2018</item>
+        <item>26/11/2018</item>
+        <item>27/11/2018</item>
+        <item>لايوجد مباريات اليوم</item>
+    </string-array>
+    <string-array name="calender">
+        <item>31/7/2018</item>
+        <item>1/8/2018</item>
+        <item>2/8/2018</item>
+        <item>3/8/2018</item>
+        <item>4/8/2018</item>
+        <item>5/8/2018</item>
+        <item>6/8/2018</item>
+        <item>7/8/2018</item>
+        <item>8/8/2018</item>
+        <item>9/8/2018</item>
+        <item>10/8/2018</item>
+        <item>11/8/2018</item>
+        <item>12/8/2018</item>
+        <item>13/8/2018</item>
+        <item>14/8/2018</item>
+        <item>15/8/2018</item>
+        <item>16/8/2018</item>
+        <item>17/8/2018</item>
+        <item>18/8/2018</item>
+        <item>19/8/2018</item>
+        <item>20/8/2018</item>
+        <item>21/8/2018</item>
+        <item>22/8/2018</item>
+        <item>23/8/2018</item>
+        <item>24/8/2018</item>
+        <item>25/8/2018</item>
+        <item>26/8/2018</item>
+        <item>27/8/2018</item>
+        <item>28/8/2018</item>
+        <item>29/8/2018</item>
+        <item>30/8/2018</item>
+        <item>31/8/2018</item>
+        <item>1/9/2018</item>
+        <item>2/9/2018</item>
+        <item>3/9/2018</item>
+        <item>4/9/2018</item>
+        <item>5/9/2018</item>
+        <item>6/9/2018</item>
+        <item>7/9/2018</item>
+        <item>8/9/2018</item>
+        <item>9/9/2018</item>
+        <item>10/9/2018</item>
+        <item>11/9/2018</item>
+        <item>12/9/2018</item>
+        <item>13/9/2018</item>
+        <item>14/9/2018</item>
+        <item>15/9/2018</item>
+        <item>16/9/2018</item>
+        <item>17/9/2018</item>
+        <item>18/9/2018</item>
+        <item>19/9/2018</item>
+        <item>20/9/2018</item>
+        <item>21/9/2018</item>
+        <item>22/9/2018</item>
+        <item>23/9/2018</item>
+        <item>24/9/2018</item>
+        <item>25/9/2018</item>
+        <item>26/9/2018</item>
+        <item>27/9/2018</item>
+        <item>28/9/2018</item>
+        <item>29/9/2018</item>
+        <item>30/9/2018</item>
+        <item>1/10/2018</item>
+        <item>2/10/2018</item>
+        <item>3/10/2018</item>
+        <item>4/10/2018</item>
+        <item>5/10/2018</item>
+        <item>6/10/2018</item>
+        <item>7/10/2018</item>
+        <item>8/10/2018</item>
+        <item>9/10/2018</item>
+        <item>10/10/2018</item>
+        <item>11/10/2018</item>
+        <item>12/10/2018</item>
+        <item>13/10/2018</item>
+        <item>14/10/2018</item>
+        <item>15/10/2018</item>
+        <item>16/10/2018</item>
+        <item>17/10/2018</item>
+        <item>18/10/2018</item>
+        <item>19/10/2018</item>
+        <item>20/10/2018</item>
+        <item>21/10/2018</item>
+        <item>22/10/2018</item>
+        <item>23/10/2018</item>
+        <item>24/10/2018</item>
+        <item>25/10/2018</item>
+        <item>26/10/2018</item>
+        <item>27/10/2018</item>
+        <item>28/10/2018</item>
+        <item>29/10/2018</item>
+        <item>30/10/2018</item>
+        <item>31/10/2018</item>
+        <item>1/11/2018</item>
+        <item>2/11/2018</item>
+        <item>3/11/2018</item>
+        <item>4/11/2018</item>
+        <item>5/11/2018</item>
+        <item>6/11/2018</item>
+        <item>7/11/2018</item>
+        <item>8/11/2018</item>
+        <item>9/11/2018</item>
+        <item>10/11/2018</item>
+        <item>11/11/2018</item>
+        <item>12/11/2018</item>
+        <item>13/11/2018</item>
+        <item>14/11/2018</item>
+        <item>15/11/2018</item>
+        <item>16/11/2018</item>
+        <item>17/11/2018</item>
+        <item>18/11/2018</item>
+        <item>19/11/2018</item>
+        <item>20/11/2018</item>
+        <item>21/11/2018</item>
+        <item>22/11/2018</item>
+        <item>23/11/2018</item>
+        <item>24/11/2018</item>
+        <item>25/11/2018</item>
+        <item>26/11/2018</item>
+        <item>27/11/2018</item>
+    </string-array>
+
+    !-------------------------------------teams name---------------------------------!
+    <string name="zmlk">الزمالك</string>
+    <string name="ahly">الاهلي</string>
+    <string name="ptrj"> بتروجيت</string>
+    <string name="ithd"> الاتحاد</string>
+    <string name="mqsa"> مصر للمقاصة</string>
+    <string name="ngom">النجوم</string>
+    <string name="enpi"> انبي</string>
+    <string name="tlae"> طلائع الجيش</string>
+    <string name="smha"> سموحه</string>
+    <string name="marb"> المقاولون العرب</string>
+    <string name="prmd"> بيراميدز</string>
+    <string name="isml"> الاسماعيلي</string>
+    <string name="msry"> المصري</string>
+    <string name="dgla"> وادي دجلة</string>
+    <string name="hars"> حرس الحدود</string>
+    <string name="entg"> الانتاج الحربي</string>
+    <string name="dkhl"> الداخلية</string>
+    <string name="gona"> الجونة</string>
+    !-----------------------------------Admin interface -----------------------------------!
+    <string name="logIn">تسجيل دخول</string>
+    <string name="username">اسم المستخدم :</string>
+    <string name="password">كلمة السر :</string>
+</resources>
